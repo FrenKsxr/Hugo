@@ -1,0 +1,34 @@
+# Configuración personal de Frenyer Segura
+baseURL = "https://FrenKsxr.github.io/"
+languageCode = "es"
+defaultContentLanguage = "es"
+
+theme = "lynx"
+title = "Frenyer Segura"
+
+enableEmoji = true
+disableKinds = ["taxonomy", "term"]
+
+[params.author]
+  name = "Frenyer Segura"
+  headline = "Desarrollador de software"
+  # Sustituye author.jpg en static/ por tu foto (recomendado: cuadrada, mín. 288×288 px)
+  # image = "author.jpg"
+
+  links = [
+    { email = "mailto:frfenyersegura13@outlook.com" },
+    { github = "https://github.com/FrenKsxr" },
+    { linkedin = "https://linkedin.com/in/TU_PERFIL" },
+    { dev = "https://dev.to/TU_USUARIO" },
+  ]
+
+[markup.highlight]
+  noClasses = false
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[module]
+  [module.hugoVersion]
+    extended = false
+    min = "0.86.1"

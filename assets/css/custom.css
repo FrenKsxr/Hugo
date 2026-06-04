@@ -1,0 +1,8 @@
+/* Estilos personalizados — ejemplo: color del botón de GitHub */
+.link-github {
+  background-color: #24292f;
+}
+
+.link-github:hover {
+  background-color: #1b1f23;
+}

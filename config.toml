@@ -11,9 +11,9 @@ disableKinds = ["taxonomy", "term"]
 
 [params.author]
   name = "Frenyer Segura"
-  headline = "Desarrollador de software"
+  headline = "Desarrollador & Entusiasta de Roblox"
   # Sustituye author.jpg en static/ por tu foto (recomendado: cuadrada, mín. 288×288 px)
-  # image = "author.jpg"
+  image = "author.jpg"
 
   links = [
     { email = "mailto:frfenyersegura13@outlook.com" },
